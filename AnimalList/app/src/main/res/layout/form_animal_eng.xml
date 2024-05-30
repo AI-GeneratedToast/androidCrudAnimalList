@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/form_enreg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/idAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id animal"
+        android:inputType="number"
+        android:layout_marginBottom="18dp"
+    />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom animal"
+        android:layout_marginBottom="18dp"
+    />
+
+    <EditText
+        android:id="@+id/classe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Classe animal"
+        android:layout_marginBottom="18dp"
+    />
+
+    <EditText
+        android:id="@+id/longevite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longevite animal"
+        android:inputType="number"
+        android:layout_marginBottom="18dp"
+    />
+
+    <EditText
+        android:id="@+id/habitat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Habitat animal"
+        android:layout_marginBottom="18dp"
+    />
+
+    <EditText
+        android:id="@+id/fait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fait animal"
+        android:layout_marginBottom="18dp"
+    />
+
+</LinearLayout>
